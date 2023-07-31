@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+
+body {
+
+    background-image: url(../imagenes//21omxpw.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+ul li {
+    font-size: large;
+    list-style: none;
+    display: inline;
+    justify-content: center;
+    margin: 10px 70px;
+}
+
+
+ul li a {
+    color: #F1C40F;
+}
+
+
+
+.pie-pagina {
+    background-color: rgb(124, 151, 151);
+    margin: 60px;
+    height: 100px;
+}
+
+.pie-pagina ul li {
+    font-size: large;
+    list-style: none;
+    display: inline;
+    margin: 60px;
+}
+
+
+.reservado {
+    font-family: "Mukta";
+    font-weight: 300;
+    color: aliceblue;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+.container h3 {
+    color: #F1C40F;
+    margin: 30px 0;
+}
+
+.container p {
+    color: blue;
+    font-weight: bold;
+
+}
+
+.precio {
+    color: #f85151;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: auto;
+}
+
+.product {
+    width: 350px;
+    height: 250px;
+    margin: 30 30px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+
+.titulo h2 {
+    color: #F1C40F;
+    margin: 70px 0;
+    text-align: center;
+
+}
