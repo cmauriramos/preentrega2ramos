@@ -1,143 +1,161 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-
-    background-image: url(../imagenes//21omxpw.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background: rgb(36, 33, 0);
+  background: linear-gradient(180deg, rgb(36, 33, 0) 5%, rgb(212, 177, 37) 100%, rgb(0, 212, 255) 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .banner {
-    height: 45vh;
-    width: 100%;
-    align-items: center;
-
+  height: 45vh;
+  width: 100%;
+  align-items: center;
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
 }
 
 nav {
-    margin: 10px;
+  margin: 10px;
 }
 
 ul li {
-    font-size: large;
-    list-style: none;
-    display: inline;
-    justify-content: center;
-    margin: 10px 70px;
+  font-size: large;
+  list-style: none;
+  display: inline;
+  justify-content: center;
+  margin: 10px 70px;
 }
-
-ul li a {
-    color: #F1C40F;
+ul a {
+  color: #1a1502;
 }
 
 .nuestras h2 {
-    text-align: center;
-    margin: 40px;
-
+  text-align: center;
+  margin: 40px;
 }
 
 .area {
-    width: 350px;
-    height: 250px;
-    margin: 0 30px;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black;
+  width: 350px;
+  height: 250px;
+  margin: 0 30px;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
 }
-
 
 .imag {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 @font-face {
-    font-family: "Quicksand";
-    src: url("../font/Quicksand-Medium.ttf");
-    font-weight: 500;
+  font-family: "Quicksand";
+  src: url("../font/Quicksand-Medium.ttf");
+  font-weight: 500;
 }
-
 @font-face {
-    font-family: "Quicksand";
-    src: url("../font/Quicksand-SemiBold.ttf");
-    font-weight: 600;
+  font-family: "Quicksand";
+  src: url("../font/Quicksand-SemiBold.ttf");
+  font-weight: 600;
 }
-
 @font-face {
-    font-family: "Mukta";
-    src: url("../font/Mukta-Light.ttf");
-    font-weight: 300;
+  font-family: "Mukta";
+  src: url("../font/Mukta-Light.ttf");
+  font-weight: 300;
 }
-
-
 .fdp p {
-
-    font-family: "Quicksand";
-    font-weight: 500;
-    color: blue;
-    margin: 30px;
-
-
+  font-family: "Quicksand";
+  font-weight: 500;
+  color: blue;
+  margin: 30px;
 }
 
 .fdp h1 {
-    text-align: center;
-    color: #F1C40F;
-    font-family: "Quicksand";
-    font-weight: 600;
-    margin: 30px;
+  text-align: center;
+  color: #F1C40F;
+  font-family: "Quicksand";
+  font-weight: 600;
+  margin: 30px;
 }
 
 .tutor {
-    height: 45vh;
-    width: 45vw;
-    margin-right: 30px;
+  height: 45vh;
+  width: 45vw;
+  margin-right: 30px;
 }
 
 .tutorial {
-    display: flex;
-    justify-content: last baseline;
-    margin: 5px 30px;
+  display: flex;
+  justify-content: last baseline;
+  margin: 5px 30px;
 }
 
 .delivery {
-    width: 450px;
-    height: 320px;
-    margin: 0 30px;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black;
+  width: 450px;
+  height: 320px;
+  margin: 0 30px;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
 }
-
-
 
 .pie-pagina {
-    background-color: rgb(124, 151, 151);
-    margin: 60px;
-
-
-
+  background-color: rgb(124, 151, 151);
+  margin: 60px;
 }
-
 .pie-pagina ul li {
-    font-size: large;
-    list-style: none;
-    display: inline;
-    margin: 60px;
+  font-size: large;
+  list-style: none;
+  display: inline;
+  margin: 60px;
 }
 
 .reservado {
-    font-family: "Mukta";
-    font-weight: 300;
-    color: aliceblue;
-    margin: 5px;
-    text-align: center;
+  font-family: "Mukta";
+  font-weight: 300;
+  color: aliceblue;
+  margin: 5px;
+  text-align: center;
 }
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-instagram {
+  background-color: #3f729b;
+}
+
+.btn-twiter {
+  background-color: #00acee;
+}
+
+.red .btn-face {
+  width: 45px;
+  height: 45px;
+}
+
+.red .btn-insta {
+  width: 45px;
+  height: 45px;
+}
+
+.red .btn-twiter {
+  width: 45px;
+  height: 45px;
+}
+
+.red p {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

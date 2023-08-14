@@ -1,0 +1,164 @@
+$redes: (
+    facebook: #3b5998,
+    instagram: #3f729b,
+    twiter: #00acee,
+);
+$color: #FFFF00;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+}
+
+body {
+
+    //background-image: url(../imagenes//21omxpw.jpg);//
+    background: rgb(170, 165, 113);
+    background: linear-gradient(180deg, rgba(170, 165, 113, 1) 5%, rgba(212, 177, 37, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+ul {
+    li {
+        font-size: large;
+        list-style: none;
+        display: inline;
+        justify-content: center;
+        margin: 10px 70px;
+    }
+
+    a {
+        color: #1a1502;
+    }
+}
+
+
+.pie-pagina {
+    //background-color: rgb(124, 151, 151);//
+    margin: 60px;
+    height: 100px;
+
+    ul {
+        li {
+            font-size: large;
+            list-style: none;
+            display: inline;
+            margin: 60px;
+        }
+    }
+}
+
+.reservado {
+    font-family: "Mukta";
+    font-weight: 300;
+    color: aliceblue;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.container {
+    h3 {
+        color: #F1C40F;
+        margin: 30px 0;
+    }
+}
+
+.precio {
+    color: #f85151;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.product {
+    width: 350px;
+    height: 250px;
+    margin: 30 30px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    transition: height 3s;
+
+}
+
+.product:hover {
+    height: 390px;
+}
+
+.titulo {
+    h2 {
+        color: #F1C40F;
+        margin: 70px 0;
+        text-align: center;
+    }
+}
+
+.descripcion {
+    p {
+        color: black;
+        font-weight: bold;
+    }
+}
+
+
+
+@each $redes,
+$color in $redes {
+    .btn-#{$redes} {
+        background-color: $color;
+
+    }
+}
+
+$estilos: (
+    back: #FFFFFF,
+    alineacion:center,
+    fontsize: 15px,
+    espace: 1rem,
+);
+
+
+.red {
+    .btn-face {
+        width: 45px;
+        height: 45px;
+
+    }
+}
+
+.red {
+    .btn-insta {
+        width: 45px;
+        height: 45px;
+
+    }
+}
+
+.red {
+    .btn-twiter {
+        width: 45px;
+        height: 45px;
+
+    }
+}
+
+.red {
+    p {
+        background-color: map-get($estilos, back);
+        text-align: map-get($estilos, alineacion);
+        padding: map-get($estilos, espace);
+        font-size: map-get($estilos, fonsize);
+    }
+}

@@ -1,94 +1,121 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 .logo {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
 }
-
 
 body {
-
-    background-image: url(../imagenes//21omxpw.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background: rgb(170, 165, 113);
+  background: linear-gradient(180deg, rgb(170, 165, 113) 5%, rgb(212, 177, 37) 100%, rgb(0, 212, 255) 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-
-
 
 ul li {
-    font-size: large;
-    list-style: none;
-    display: inline;
-    justify-content: center;
-    margin: 10px 70px;
+  font-size: large;
+  list-style: none;
+  display: inline;
+  justify-content: center;
+  margin: 10px 70px;
 }
-
-
-ul li a {
-    color: #F1C40F;
+ul a {
+  color: #1a1502;
 }
-
-
 
 .pie-pagina {
-    background-color: rgb(124, 151, 151);
-    margin: 60px;
-    height: 100px;
+  margin: 60px;
+  height: 100px;
 }
-
 .pie-pagina ul li {
-    font-size: large;
-    list-style: none;
-    display: inline;
-    margin: 60px;
+  font-size: large;
+  list-style: none;
+  display: inline;
+  margin: 60px;
 }
-
 
 .reservado {
-    font-family: "Mukta";
-    font-weight: 300;
-    color: aliceblue;
-    margin: 5px;
-    text-align: center;
+  font-family: "Mukta";
+  font-weight: 300;
+  color: aliceblue;
+  margin: 5px;
+  text-align: center;
 }
-
-
 
 .container h3 {
-    color: #F1C40F;
-    margin: 30px 0;
-}
-
-.container p {
-    color: blue;
-    font-weight: bold;
-
+  color: #F1C40F;
+  margin: 30px 0;
 }
 
 .precio {
-    color: #f85151;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: auto;
+  color: #f85151;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: auto;
+  text-align: center;
 }
 
 .product {
-    width: 350px;
-    height: 250px;
-    margin: 30 30px;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black;
+  width: 350px;
+  height: 250px;
+  margin: 30 30px;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+  transition: height 3s;
+}
+
+.product:hover {
+  height: 390px;
 }
 
 .titulo h2 {
-    color: #F1C40F;
-    margin: 70px 0;
-    text-align: center;
-
+  color: #F1C40F;
+  margin: 70px 0;
+  text-align: center;
 }
+
+.descripcion p {
+  color: black;
+  font-weight: bold;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-instagram {
+  background-color: #3f729b;
+}
+
+.btn-twiter {
+  background-color: #00acee;
+}
+
+.red .btn-face {
+  width: 45px;
+  height: 45px;
+}
+
+.red .btn-insta {
+  width: 45px;
+  height: 45px;
+}
+
+.red .btn-twiter {
+  width: 45px;
+  height: 45px;
+}
+
+.red p {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=productos.css.map */
